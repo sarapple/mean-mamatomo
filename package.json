@@ -1,0 +1,28 @@
+{
+  "name": "mamatomo",
+  "version": "0.0.1",
+  "description": "An app for moms to make friends!",
+  "authors": ["Ulysses Lin <utemoc@gmail.com>", "Sara Wong <swong2@wellesley.edu>", "Matias Villaseca <matias.villaseca@gmail.com>"],
+  "contributors": [{
+    "name": "Foo Bar",
+    "email": "foo.bar@example.com"
+  }],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sarapple/mamatomo"
+  },
+  "dependencies": {
+    "basic-auth": "^1.0.0",
+    "body-parser": "^1.12.0",
+    "cookie-parser": "^1.3.4",
+    "crypto": "^0.0.3",
+    "ejs": "^2.2.4",
+    "express": "^4.11.2",
+    "express-session": "^1.10.3",
+    "mongoose": "^3.8.23",
+    "socket.io": "^1.3.4"
+  }
+}
